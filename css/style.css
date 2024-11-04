@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: inter;
+}
+
+.menu-superior {
+    color: #ffffff;
+    padding: 100px 10px;
+    padding-left: 50px;
+    background-color: #303030;
+}
+
+.menu-superior h1 {
+    font-size: 38px;
+    margin-bottom: 20px;
+}
+
+.menu-superior p {
+    font-size: 18px;
+}
+
+.informacao {
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    padding-left: -485;
+    justify-content: space-around;
+    margin-top: 54px;
+    background-color: #f9f9f9;
+}
+
+.inf-item {
+    text-align: auto;
+}
+
+.inf-number {
+    font-size:40px;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.inf-label {
+    color: #000;
+}
+
+.texto {
+    padding-top: 120px;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    align-items: center;
+    max-width: 1200px;
+    margin-left: 77px;
+}
+ 
+.txt {
+    margin-top: 30px;
+}
+
+.sobre-text {
+   margin-bottom: 20px;
+}
+
+.sobre-text h2 {
+    font-size: 22px;
+    padding-right: 25px;
+    color: #000000;
+}
+
+.sobre-text p {
+    font-size: 14px;
+    color: #000;
+}
+
+.image {
+    margin: 32px;
+}
+
+.image img {
+    width: 100%;
+    border-radius: 30px;
+    box-shadow: 4px 2px rgba(71, 63, 63, 0.153);
+}
+
+.contato {
+    background-color: #303030;
+    padding: 48px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.contato h2 {
+    margin-bottom: 10px;
+}
+
+.contato form {
+    max-width: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 33px;
+}
+
+.contato input {
+    padding: 16px;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    color: #000000;
+}
+
+.contato button {
+    width: 245px;
+    height: 55px;
+    background-color: #c07212;
+    margin:auto;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contato button:hover {
+    background-color: #d35400;
+}
+
+@media (max-width: 768px) {
+    .about {
+        padding: 5px;
+        gap: 5px;
+    }
+    
+    .stat-item {
+        width: 100%;
+    }
+}
